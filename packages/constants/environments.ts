@@ -4,12 +4,12 @@ export const ENVIRONMENT_CONFIGS: Record<string, EnvironmentConfig> = {
   dev: {
     name: 'development',
     apiEndpoints: {
-      onboarding: 'https://dev-api.onboarding.safemate.com',
-      wallet: 'https://dev-api.wallet.safemate.com',
-      hedera: 'https://dev-api.hedera.safemate.com',
-      groups: 'https://dev-api.groups.safemate.com',
-      directory: 'https://dev-api.directory.safemate.com',
-      tokenVault: 'https://dev-api.token-vault.safemate.com',
+      onboarding: 'https://527ye7o1j0.execute-api.ap-southeast-2.amazonaws.com/dev',
+      wallet: 'https://ncr4ky9z5h.execute-api.ap-southeast-2.amazonaws.com/dev',
+      hedera: 'https://229i7zye9f.execute-api.ap-southeast-2.amazonaws.com/dev',
+      groups: 'https://njc6cjhmsh.execute-api.ap-southeast-2.amazonaws.com/dev',
+      directory: 'https://t2hd7atpa8.execute-api.ap-southeast-2.amazonaws.com/dev',
+      tokenVault: 'https://x3qlwocgza.execute-api.ap-southeast-2.amazonaws.com/dev',
     },
     cognito: {
       userPoolId: 'ap-southeast-2_dev123',
@@ -22,12 +22,12 @@ export const ENVIRONMENT_CONFIGS: Record<string, EnvironmentConfig> = {
   preprod: {
     name: 'pre-production',
     apiEndpoints: {
-      onboarding: 'https://preprod-api.onboarding.safemate.com',
-      wallet: 'https://preprod-api.wallet.safemate.com',
-      hedera: 'https://preprod-api.hedera.safemate.com',
-      groups: 'https://preprod-api.groups.safemate.com',
-      directory: 'https://preprod-api.directory.safemate.com',
-      tokenVault: 'https://preprod-api.token-vault.safemate.com',
+      onboarding: 'https://527ye7o1j0.execute-api.ap-southeast-2.amazonaws.com/preprod',
+      wallet: 'https://ncr4ky9z5h.execute-api.ap-southeast-2.amazonaws.com/preprod',
+      hedera: 'https://229i7zye9f.execute-api.ap-southeast-2.amazonaws.com/preprod',
+      groups: 'https://njc6cjhmsh.execute-api.ap-southeast-2.amazonaws.com/preprod',
+      directory: 'https://t2hd7atpa8.execute-api.ap-southeast-2.amazonaws.com/preprod',
+      tokenVault: 'https://x3qlwocgza.execute-api.ap-southeast-2.amazonaws.com/preprod',
     },
     cognito: {
       userPoolId: 'ap-southeast-2_preprod123',
@@ -35,24 +35,6 @@ export const ENVIRONMENT_CONFIGS: Record<string, EnvironmentConfig> = {
     },
     hedera: {
       network: 'testnet',
-    },
-  },
-  production: {
-    name: 'production',
-    apiEndpoints: {
-      onboarding: 'https://api.onboarding.safemate.com',
-      wallet: 'https://api.wallet.safemate.com',
-      hedera: 'https://api.hedera.safemate.com',
-      groups: 'https://api.groups.safemate.com',
-      directory: 'https://api.directory.safemate.com',
-      tokenVault: 'https://api.token-vault.safemate.com',
-    },
-    cognito: {
-      userPoolId: 'ap-southeast-2_prod123',
-      clientId: 'prod_client_id',
-    },
-    hedera: {
-      network: 'mainnet',
     },
   },
 };
