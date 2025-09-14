@@ -1,0 +1,9 @@
+{
+  "name": "@safemate/shared-utilities-layer",
+  "version": "1.0.0",
+  "description": "Shared utilities Lambda Layer for SafeMate",
+  "private": true,
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

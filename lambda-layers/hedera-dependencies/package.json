@@ -1,0 +1,9 @@
+{
+  "name": "@safemate/hedera-dependencies-layer",
+  "version": "1.0.0",
+  "description": "Hedera Hashgraph dependencies Lambda Layer for SafeMate",
+  "private": true,
+  "dependencies": {
+    "@hashgraph/sdk": "^2.71.1"
+  }
+}
